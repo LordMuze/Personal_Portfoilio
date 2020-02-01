@@ -1,0 +1,190 @@
+body{
+  margin: 0;
+}
+
+.headerDecorationOne{
+  background-color: #116466;
+}
+
+
+.list-wrapper{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link{
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em;
+  width: auto;
+}
+.nav-linkDecorationOne{
+  font-weight: bold;
+}
+.nav-linkDecorationOne > a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.desc {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -ms-transform : translateY(-50%);
+  display: inline-block;
+  width: fit-content;
+  color: black;
+}
+
+.desc-decorationOne{
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style:solid;
+  padding: 0.5em;
+}
+.list-project{
+  padding: 40px;
+  background-color: #D1E8E2;
+  min-height: 80vh;
+}
+.item-project{
+  display: block;
+  margin-top: 100px;
+  min-height: 300px;
+  margin-bottom: 100px;
+}
+.sub-item-project{
+  padding-top: 5em;
+  padding-left: 5em;
+}
+
+.right-sub-project-item{
+  float: right;
+}
+.left-sub-project-item{
+  float: left;
+}
+
+
+.font-title-project{
+  /*Nothing here*/
+}
+
+
+.font-desc-project{
+  max-width: 20em;
+}
+
+.project-button-proceed{
+  border:2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.itemimage-illustration{
+  padding: 2em;
+  background-color: #2C3531;
+  display: inline-block;
+  overflow: auto;
+}
+.leftImageItem{
+  float: left;
+
+}
+.rightImageItem{
+  float: right;
+}
+
+
+.contact-page{
+  padding: 100px;
+}
+.contact-title{
+  float: left;
+  color: black;
+  font-weight: bold;
+  min-width: 400px;
+  font-size: 50px;
+}
+.contact-form{
+  float: right;
+}
+.submit-button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  width: 120px;
+  height: 20%;
+}
+.submit-button:hover{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.input-field{
+  padding: 10px;
+  width: 400px;
+  height: 15%;
+  border-radius: 3px;
+  border-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact-form{
+  max-width: 410px;
+}
+.form-label{
+  font-weight: bold;
+}
+
+.footer{
+  width: auto;
+  height: 10vh;
+  background-color: #2c3531;
+  text-align: center;
+  color: white;
+  padding: 0.2em;
+}
+/*---Device Screen Adjustments---*/
+@media only screen and (max-width: 600px) {
+  .leftImageItem{
+    float: none;
+  }
+  .rightImageItem{
+    float: none;
+  }
+  .right-sub-project-item{
+    float: none;
+  }
+  .left-sub-project-item{
+    float: none;
+  }
+  .item-project{
+    text-align: center;
+  }
+  .sub-item-project{
+    padding-left: 0;
+  }
+  .font-desc-project{
+    text-align: center;
+    padding-left: 1em;
+  }
+
+
+}

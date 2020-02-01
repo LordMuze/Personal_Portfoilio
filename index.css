@@ -1,0 +1,42 @@
+#navbar{
+}
+
+#header{
+  position: fixed;
+  padding:0.8em;
+  z-index: 10;
+  width: 100%;
+}
+
+#welcome-section{
+  height: 100vh;
+  width: auto;
+  background-color: #FFCB9A;
+}
+#proceedbutton{
+}
+#desc-project{
+  margin-bottom: 50px;
+
+}
+#productLandingImage{
+  width: 50%;
+  height: auto;
+}
+
+#surveyformimage{
+  max-width: 200px;
+  max-height:400px;
+}
+#techpageimage{
+  width: 40%;
+  height: auto;
+}
+#contact{
+  background-color: #D9B08C;
+  height: 40vh;
+  width: auto;
+}
+#contactTitle{
+  max-width: 100px;
+}
